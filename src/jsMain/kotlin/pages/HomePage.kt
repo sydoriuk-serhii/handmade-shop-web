@@ -5,7 +5,7 @@ import org.jetbrains.compose.web.dom.*
 import components.*
 
 @Composable
-fun HomePage() {
+fun HomePage(onAddToCart: (String, String, Double) -> Unit) {
     H1 { Text("Welcome to Handmade Shop!") }
-    ProductList()
+    ProductList(onAddToCart)
 }

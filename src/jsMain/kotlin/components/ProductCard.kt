@@ -5,7 +5,13 @@ import org.jetbrains.compose.web.dom.*
 import org.jetbrains.compose.web.css.*
 
 @Composable
-fun ProductCard(title: String, description: String, price: String) {
+fun ProductCard(
+    id: String,
+    title: String,
+    description: String,
+    price: Double,
+    onAddToCart: (String, String, Double) -> Unit
+) {
     Div(attrs = {
         style {
             border(1.px, LineStyle.Solid, Color.lightgray)
@@ -21,12 +27,20 @@ fun ProductCard(title: String, description: String, price: String) {
                 fontWeight("bold")
                 color(Color.darkgreen)
             }
-        }) { Text("Price: $price") }
+        }) { Text("Price: $${price.toFixed(2)}") }
         Button(attrs = {
             style {
                 backgroundColor(Color.cadetblue)
             }
-            onClick { console.log("Added $title to cart") }
+            onClick {
+                onAddToCart(id, title, price)
+                console.log("Added $title to cart")
+            }
         }) { Text("Add to Cart") }
     }
+}
+
+// Extension function to format doubles as currency
+fun Double.toFixed(digits: Int): String {
+    return this.asDynamic().toFixed(digits) as String
 }

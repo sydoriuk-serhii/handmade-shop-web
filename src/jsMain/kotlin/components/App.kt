@@ -23,8 +23,8 @@ fun App() {
     when (currentPage) {
         "home" -> HomePage(addToCart)
         "product" -> ProductPage(addToCart)
-        "cart" -> CartPage(cartItems) {
-            cartItems = it
+        "cart" -> CartPage(cartItems) { updatedItems ->
+            cartItems = updatedItems
         }
     }
 }
