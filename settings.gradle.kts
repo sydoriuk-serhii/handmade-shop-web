@@ -11,4 +11,3 @@ plugins {
 }
 
 rootProject.name = "handmade-shop-web"
-include("app")

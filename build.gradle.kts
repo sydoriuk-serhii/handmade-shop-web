@@ -40,7 +40,7 @@ kotlin {
 
         val jsMain by getting {
             dependencies {
-                implementation(compose.html.core)
+                implementation(compose.web.core)
                 implementation(compose.runtime)
             }
         }
@@ -64,7 +64,7 @@ kotlin {
 compose {
     web {
         application {
-            mainClass = "org.example.MainKt"
+            mainClass = "MainKt"
         }
     }
 }

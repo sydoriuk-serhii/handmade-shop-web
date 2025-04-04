@@ -1,3 +1,5 @@
+package org.example
+
 import components.App
 import org.jetbrains.compose.web.renderComposable
 
