@@ -1,4 +1,4 @@
-package components
+package org.example.components
 
 import androidx.compose.runtime.*
 import org.jetbrains.compose.web.dom.*

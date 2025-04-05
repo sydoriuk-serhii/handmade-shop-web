@@ -1,6 +1,6 @@
 package org.example
 
-import components.App
+import org.example.components.App
 import org.jetbrains.compose.web.renderComposable
 
 fun main() {

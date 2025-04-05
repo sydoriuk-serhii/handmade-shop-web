@@ -1,8 +1,8 @@
-package pages
+package org.example.pages
 
 import androidx.compose.runtime.*
 import org.jetbrains.compose.web.dom.*
-import components.ProductCard
+import org.example.components.ProductCard
 
 @Composable
 fun ProductPage(onAddToCart: (String, String, Double) -> Unit) {

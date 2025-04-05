@@ -1,9 +1,9 @@
-package pages
+package org.example.pages
 
 import androidx.compose.runtime.*
 import org.jetbrains.compose.web.dom.*
 import org.jetbrains.compose.web.css.*
-import model.CartItem
+import org.example.model.CartItem
 
 @Composable
 fun CartPage(items: List<CartItem>, onUpdateCart: (List<CartItem>) -> Unit) {

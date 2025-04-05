@@ -1,8 +1,8 @@
-package components
+package org.example.components
 
 import androidx.compose.runtime.*
-import model.CartItem
-import pages.*
+import org.example.model.CartItem
+import org.example.pages.*
 
 @Composable
 fun App() {

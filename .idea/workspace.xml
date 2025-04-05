@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65345306-be9b-4188-9f41-7f49c79bfa87" name="Changes" comment="d" />
+    <list default="true" id="65345306-be9b-4188-9f41-7f49c79bfa87" name="Changes" comment="y" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +18,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -68,8 +71,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.Run Compose Web.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/handmade-shop-web",
@@ -92,6 +97,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\handmade-shop-web\src\jsMain\kotlin\org\example" />
       <recent name="D:\handmade-shop-web\src\jsMain\kotlin" />
       <recent name="D:\handmade-shop-web\src\jsMain" />
       <recent name="D:\handmade-shop-web\src\main\kotlin" />
@@ -99,6 +105,28 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="Run Compose Web" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jsBrowserDevelopmentRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="handmade-shop-web" />
       <method v="2">
@@ -136,6 +164,7 @@
       <workItem from="1743762395969" duration="136000" />
       <workItem from="1743762536697" duration="263000" />
       <workItem from="1743762850837" duration="512000" />
+      <workItem from="1743763372445" duration="5545000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <option name="closed" value="true" />
@@ -153,7 +182,31 @@
       <option name="project" value="LOCAL" />
       <updated>1743762746505</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="d">
+      <option name="closed" value="true" />
+      <created>1743765813592</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743765813592</updated>
+    </task>
+    <task id="LOCAL-00004" summary="i">
+      <option name="closed" value="true" />
+      <created>1743767868735</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743767868735</updated>
+    </task>
+    <task id="LOCAL-00005" summary="y">
+      <option name="closed" value="true" />
+      <created>1743769093897</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743769093897</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +214,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="d" />
-    <option name="LAST_COMMIT_MESSAGE" value="d" />
+    <MESSAGE value="i" />
+    <MESSAGE value="y" />
+    <option name="LAST_COMMIT_MESSAGE" value="y" />
   </component>
 </project>
